@@ -26,5 +26,5 @@ describe "Cat" do
     # against puts and Input/Output (IO) methods
     expect(STDOUT).to receive(:puts).with("meow!")
     maru.meow
-  end
+  end 
 end
